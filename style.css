@@ -2,6 +2,36 @@
     background: url(rick-and-morty-wallpaper-portal-wallpaper-001.jpg);
 }
 
+@font-face {
+    font-family: rickandmorty;
+    src: url(get_schwifty.ttf);
+}
+
+h2{
+    font-family: rickandmorty;
+    color: rgb(90, 179, 200);
+    font-size: 50px;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+}
+
+h6 {
+    color: white;
+    font-size: 30px;
+}
+
 body {font-family: Arial;}
 
 /* Style the tab */
@@ -39,5 +69,11 @@ body {font-family: Arial;}
   padding: 6px 12px;
   border: 1px solid green;
   border-top: none;
-  background-color: blue
+  background-color: blue;
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
