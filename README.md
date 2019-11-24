@@ -1,6 +1,6 @@
 # UI-Element-Project
 
-![image](https://imgur.com/a/nT86hSN)
+![image](https://i.imgur.com/FpMHiS7.png)
 
 
 ## Purpose
