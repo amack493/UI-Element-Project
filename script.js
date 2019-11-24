@@ -9,7 +9,7 @@ fetch(url)
     .then(res => {
         console.log(res.results)
         let characters = res.results
-        for (i = 0; i < characters.length; i++) {
+        for (i = 0; i < characters.length; i+= 1) {
             console.log(characters[i])
             let p =document.createElement('p')
             h4.innerText=characters[i].name
@@ -30,7 +30,7 @@ fetch(url2)
     .then(res => {
         console.log(res.results)
         let locations = res.results
-        for (i = 0; i < locations.length; i++) {
+        for (i = 0; i < locations.length; i+= 1) {
             console.log(locations[i])
             let p =document.createElement('p')
             h5.innerText=locations[i].name
